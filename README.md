@@ -1,4 +1,4 @@
-# 《Redis 4.x Cookbook》Learning Notes
+# 《Windows Subsystem for Linux 2 (WSL 2) Tips, Tricks, and Techniques》Learning Notes
 
 
 
@@ -6,17 +6,15 @@
 
 ![Redis 4.x Cookbook](assets/cover.png)
 
-|    **Title**    | **Redis 4.x Cookbook** [ISBN: 9781783988167] |
+|    **Title**    | **Windows Subsystem for Linux 2 (WSL 2) Tips, Tricks, and Techniques** [ISBN: 9781800562448] |
 | :-------------: | :----------------------------------------------------------: |
-|   **Author**    |               **Pengcheng Huang, Zuofei Wang**               |
-| **Publication** |                      **Packt, 2018.2**                       |
-|    **Pages**    |                           **374**                            |
+|   **Author**    |                       **Stuart Leeks**                       |
+| **Publication** |                      **Packt, 2020.10**                      |
+|    **Pages**    |                           **246**                            |
 
 > **Introduction**
 >
-> Redis is considered the world's most popular key-value store database. Its versatility and the wide variety of use cases it enables have made it a popular choice of database for many enterprises. Based on the latest version of Redis, this book provides both step-by-step recipes and relevant the background information required to utilize its features to the fullest. It covers everything from a basic understanding of Redis data types to advanced aspects of Redis high availability, clustering, administration, and troubleshooting. This book will be your great companion to master all aspects of Redis.
->
-> The book starts off by installing and configuring Redis for you to get started with ease. Moving on, all the data types and features of Redis are introduced in detail. Next, you will learn how to develop applications with Redis in Java, Python, and the Spring Boot web framework. You will also learn replication tasks, which will help you to troubleshoot replication issues. Furthermore, you will learn the steps that need to be undertaken to ensure high availability on your cluster and during production deployment. Toward the end of the book, you will learn the topmost tasks that will help you to troubleshoot your ecosystem efficiently, along with extending Redis by using different modules.
+> Windows Subsystem for Linux (WSL) allows you to run native Linux tools alongside traditional Windows applications. Whether you’re developing applications across multiple operating systems or looking to add more tools to your Windows environment, WSL offers endless possibilities. You’ll start by understanding what WSL is and learn how to install and configure WSL along with different Linux distros. Next, you'll learn techniques that allow you to work across both Windows and Linux environments. You’ll discover how to install and customize the new Windows Terminal. We'll also show you how to work with code in WSL using Visual Studio Code (VS Code). In addition to this, you’ll explore how to work with containers with Docker and Kubernetes, and how to containerize a development environment using VS Code. While Microsoft has announced support for GPU and GUI applications in an upcoming release of WSL, at the time of writing these features are either not available or only in early preview releases. This book focuses on the stable, released features of WSL and giving you a solid understanding of the amazing techniques that you can use with WSL today. By the end of this book, you’ll be able to configure WSL and Windows Terminal to suit your preferences, and productively use Visual Studio Code for developing applications with WSL.
 
 
 
@@ -24,19 +22,27 @@
 
 Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Working) | :no_entry: (Not Started) | :orange_book: (Finish reading)
 
-| No.  |        Chapter Title        |          Status          |
-| :--: | :-------------------------: | :----------------------: |
-| Ch01 | [Chapter Title1](./Ch01.md) |    :heavy_check_mark:    |
-| Ch02 | [Chapter Title2](./Ch02.md) | :hourglass_flowing_sand: |
-| Ch03 | [Chapter Title3](./Ch03.md) |        :no_entry:        |
+| No.  |                        Chapter Title                         |          Status          |
+| :--: | :----------------------------------------------------------: | :----------------------: |
+| Ch01 | [Introduction to the Windows Subsystem for Linux](./Ch01.md) | :hourglass_flowing_sand: |
+| Ch02 | [Installing and Configuring the Windows Subsystem for Linux](./Ch02.md) |        :no_entry:        |
+| Ch03 |      [Getting Started with Windows Terminal](./Ch03.md)      |        :no_entry:        |
+| Ch04 |        [Windows to Linux Interoperability](./Ch04.md)        |        :no_entry:        |
+| Ch05 |        [Linux to Windows Interoperability](./Ch05.md)        |        :no_entry:        |
+| Ch06 |       [Getting More from Windows Terminal](./Ch06.md)        |        :no_entry:        |
+| Ch07 |         [Working with Containers in WSL](./Ch07.md)          |        :no_entry:        |
+| Ch08 |            [Working with WSL Distros](./Ch08.md)             |        :no_entry:        |
+| Ch09 |           [Visual Studio Code and WSL](./Ch09.md)            |        :no_entry:        |
+| Ch10 |        [Visual Studio Code and Containers](./Ch10.md)        |        :no_entry:        |
+| Ch11 |    [Productivity Tips with Command-Line Tools](./Ch11.md)    |        :no_entry:        |
 
 
 
 Powershell script for generating markdown files in batch:
 
 ```powershell
-# Create 13 empty markdown files named Ch##.md:
-for($i=1; $i -le 13; $i=$i+1){ New-Item -Name "Ch$('{0:d2}' -f $i).md"; }
+# Create 11 empty markdown files named Ch##.md:
+for($i=1; $i -le 11; $i=$i+1){ New-Item -Name "Ch$('{0:d2}' -f $i).md"; }
 ```
 
  
