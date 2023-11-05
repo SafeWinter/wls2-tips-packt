@@ -24,8 +24,8 @@ Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Wo
 
 | No.  |                        Chapter Title                         |          Status          |
 | :--: | :----------------------------------------------------------: | :----------------------: |
-| Ch01 | [Introduction to the Windows Subsystem for Linux](./Ch01.md) | :hourglass_flowing_sand: |
-| Ch02 | [Installing and Configuring the Windows Subsystem for Linux](./Ch02.md) |        :no_entry:        |
+| Ch01 | [Introduction to the Windows Subsystem for Linux](./Ch01.md) |    :heavy_check_mark:    |
+| Ch02 | [Installing and Configuring the Windows Subsystem for Linux](./Ch02.md) | :hourglass_flowing_sand: |
 | Ch03 |      [Getting Started with Windows Terminal](./Ch03.md)      |        :no_entry:        |
 | Ch04 |        [Windows to Linux Interoperability](./Ch04.md)        |        :no_entry:        |
 | Ch05 |        [Linux to Windows Interoperability](./Ch05.md)        |        :no_entry:        |
